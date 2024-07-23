@@ -70,11 +70,7 @@ body {
     background-color: lightgreen;
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     flex-wrap: wrap;
-=======
-    flex-warp: warp;
->>>>>>> fb83609055f6cf7a429ad00ca28ed28a91308f9b
     justify-content: center;
     align-items: center;
     border-bottom-left-radius: 20px;
