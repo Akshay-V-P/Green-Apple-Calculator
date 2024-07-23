@@ -92,9 +92,10 @@ body {
 @media (width < 500px) {
 
     .container {
+
         max-width: 90%;
         max-height: 60%;
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
     .navbar {
