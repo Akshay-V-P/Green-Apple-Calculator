@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="heading">Defoe Calculator</h1>
+    </div>
+    
+    <div class="container">
+        <input type="text" id="textarea">
+        <div class="functions">
+            <button onclick="cleartext()" id="clear">C</button>
+            <button onclick="calcFunc('%')">%</button>
+            <button onclick="memoryMinus()">M-</button>
+            <button onclick="clearInput()">-</button>
+
+        </div>
+        <div class="keyarea">
+            <button onclick="calcFunc(7)">7</button>
+            <button onclick="calcFunc(8)">8</button>
+            <button onclick="calcFunc(9)">9</button>
+            <button onclick="calcFunc('/')">/</button>
+            <button onclick="calcFunc(4)">4</button>
+            <button onclick="calcFunc(5)">5</button>
+            <button onclick="calcFunc(6)">6</button>
+            <button onclick="calcFunc('-')">-</button>
+            <button onclick="calcFunc(1)">1</button>
+            <button onclick="calcFunc(2)">2</button>
+            <button onclick="calcFunc(3)">3</button>
+            <button onclick="calcFunc('+')">+</button>
+            <button onclick="calcFunc('.')">.</button>
+            <button onclick="calcFunc(0)">0</button>
+            <button onclick="calcresult()">=</button>
+            <button onclick="calcFunc('*')">x</button>
+
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
