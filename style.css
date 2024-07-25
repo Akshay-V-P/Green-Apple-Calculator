@@ -2,11 +2,23 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     background-color: var(--offwhite);
     overflow-x: hidden;
 }
 
 body {
+=======
+    background-color: #3d4806;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 7dvh;
+    background-color: #728708;
+>>>>>>> fbbd2ed3b7e639146b85719cc9ebe461bc7a8853
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,6 +69,7 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
     margin-left: 10%;
     max-width: 45%;
     min-height: 55vh;
@@ -68,6 +81,55 @@ body {
     align-items: center;
     justify-items: center;
     /* display: flex;
+=======
+    max-width: 40dvh;
+    height: 65dvh;
+    background-color: #728708;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 0;
+
+}
+
+.container input {
+    width: 85%;
+    height: 10%;
+    margin: auto;
+    pointer-events: none;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    border: 0;
+}
+
+.functions{
+    background-color: #c5c911;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.functions button {
+    width: 15%;
+    height: 70%;
+    border-radius: 20px;
+    border: 0;
+    font-size: 20px;
+}
+
+.keyarea {
+    width: 100%;
+    height: 60%;
+    background-color: #c5c911;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+>>>>>>> fbbd2ed3b7e639146b85719cc9ebe461bc7a8853
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; */
@@ -88,9 +150,20 @@ body {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+<<<<<<< HEAD
 .container button:hover {
     color: rgb(192, 192, 192);
     border-radius: 20px;
+=======
+.themebutton {
+    max-width: 100%;
+    height: 75px;
+    background-color: #3d4806;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+>>>>>>> fbbd2ed3b7e639146b85719cc9ebe461bc7a8853
 }
 
 h4 {
@@ -139,8 +212,13 @@ h4 {
     /* .navbar {
         width: 100%;
         height: 7dvh;
+<<<<<<< HEAD
         background-color: green;
     } */ 
+=======
+        background-color: #728708;
+    }
+>>>>>>> fbbd2ed3b7e639146b85719cc9ebe461bc7a8853
 
     
 }
